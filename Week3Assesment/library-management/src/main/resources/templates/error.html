@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Error</title>
+</head>
+
+<body style="font-family: Arial; margin:40px;">
+
+<h2 style="color:black;">Error Occurred</h2>
+
+<p th:text="${errorMessage}"></p>
+
+<br>
+
+<a th:href="@{/dashboard}" style="text-decoration:none; color:black;">
+    ← Go Back to Dashboard
+</a>
+
+</body>
+</html>
